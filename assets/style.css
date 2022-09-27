@@ -1,0 +1,20 @@
+#nav-wrapper{
+     font-size: 600px;
+}
+
+body {
+    background-image: url(/assets/silvestri-matteo-6-C0VRsagUw-unsplash.jpg);
+    background-color: #cccccc;
+   }
+
+
+header {
+    font-size: xx-large;
+}
+
+#cssHook {
+    font-size: 100px;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 50px, red;
+}
