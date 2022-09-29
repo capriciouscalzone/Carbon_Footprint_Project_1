@@ -74,4 +74,4 @@ function distanceCalc(L1, Lo1, L2, Lo2, km) {
     //     .catch((err) => console.error(err));
     // })
     // .catch((err) => console.error(err));
-}
+// }
