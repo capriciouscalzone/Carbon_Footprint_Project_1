@@ -11,7 +11,7 @@ function coordDistance() {
   var long2 = "";
 
   fetch(
-    `http://api.openweathermap.org/geo/1.0/zip?zip=${zipCode},US&appid=2d8868d62bc83f43b64634172d198128`
+    `https://api.openweathermap.org/geo/1.0/zip?zip=${zipCode},US&appid=2d8868d62bc83f43b64634172d198128`
   )
     .then(function (response) {
       return response.json();
@@ -21,7 +21,7 @@ function coordDistance() {
       lat1 = data.lat;
       long1 = data.lon;
       fetch(
-        `http://api.openweathermap.org/geo/1.0/zip?zip=${zipCode2},US&appid=2d8868d62bc83f43b64634172d198128`
+        `https://api.openweathermap.org/geo/1.0/zip?zip=${zipCode2},US&appid=2d8868d62bc83f43b64634172d198128`
       )
         .then(function (response) {
           return response.json();
