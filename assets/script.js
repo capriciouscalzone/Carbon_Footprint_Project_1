@@ -85,3 +85,12 @@ function distanceCalc(L1, Lo1, L2, Lo2, km) {
 
 
 };
+
+
+localStorage.getItem("address");
+localStorage.getItem("zip code1");
+localStorage.getItem("zip code2");
+
+localStorage.setItem("address", address);
+localStorage.setItem("zip code1", zipCode1);
+localStorage.setItem("zip code2", zipCode2);
